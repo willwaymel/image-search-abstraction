@@ -1,0 +1,110 @@
+/****** Main Styling ******/
+html {
+  height: 100%;
+  margin: 0;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #222;
+	background-color: #ECF0F1;
+	text-align: center;
+  height: 100%;
+  margin: 0;
+
+  
+}
+.titles{
+  font-size:32px;
+}
+h1 {
+  margin-bottom: 0;
+}
+/************this is for sticky footer (and above height and margin)--
+credit to https://css-tricks.com/couple-takes-sticky-footer***/
+.wrapper {
+  min-height: 100%;
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+.footer,
+.push {
+  height: 50px;
+}
+/*end footer styling*/
+
+.container {
+	
+/* 	margin-top: 40px; */
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+/*   padding: 20px; */
+/*   justify-content: center; */
+/*   margin: 0 auto; */
+}
+
+footer {
+  display: flex;
+  background-color: #351CDD;
+  color: #fff;
+  justify-content: center;
+}
+
+ol {
+	list-style-position: inside;
+  text-align: left;
+  align-self:center;
+  padding-right: 40px;
+  
+  
+}
+li {
+  padding-bottom: 12px;
+}
+.examplebox {
+  align-self:center;
+  margin: auto 40px;
+}
+.examples {
+  text-align: left;
+  max-width: 720px;
+}
+.nospace {
+  margin-top: 0;
+}
+ul {
+	list-style-type: none;
+}
+
+a {
+	color: #2574A9;
+}
+/****** Logo Div Styling ******/
+
+img {
+	margin: 20px auto 0 auto;
+	display: block;
+}
+/*****this is for long urls not to break outside their div and wrap****/
+/**credit to https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/**/
+.dont-break-out {
+
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+
+}

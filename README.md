@@ -1,1 +1,1 @@
-# image-search-abstraction
+This is a simple URL shortener website.
