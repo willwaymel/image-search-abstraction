@@ -1,0 +1,30 @@
+{
+  "name": "mongodb",
+  "version": "0.0.1",
+  "description": "Example app interacting with MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "mongodb": "^2.2.30",
+    "valid-url": "^1.0.9",
+    "shortid": "^2.2.8",
+    "bing.search": "^1.0.1",
+    "util": "^0.10.3",
+    "mongoose": "^4.11.5",
+    "axios": "^0.16.2",
+    "strftime": "^0.10.0"
+  },
+  "engines": {
+    "node": "4.4.5"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "database"
+  ],
+  "license": "MIT"
+}
