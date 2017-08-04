@@ -1,1 +1,1 @@
-This is a simple URL shortener website.
+This is a full stack JavaScript app that allows you to search for images, get their urls and linked websites and text, page through the results, and view search history.
